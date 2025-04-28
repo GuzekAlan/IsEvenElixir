@@ -33,7 +33,6 @@ jobs:
       - name: Publish to Hex.pm
         env:
           HEX_API_KEY: ${{ secrets.HEX_API_KEY }}
-          MIX_ENV: prod
         run: |
           mix hex.build
           mix hex.publish --yes
