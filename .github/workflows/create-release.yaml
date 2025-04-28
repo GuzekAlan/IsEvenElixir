@@ -17,6 +17,7 @@ jobs:
         id: create_release
         uses: softprops/action-gh-release@v1
         if: github.ref_type == 'tag'
-        draft: true
-        prerelease: false
-        generate_release_notes: true
+        with:
+          draft: true
+          prerelease: false
+          generate_release_notes: true
