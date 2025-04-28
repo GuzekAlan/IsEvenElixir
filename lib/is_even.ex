@@ -1,6 +1,6 @@
 defmodule IsEven do
   @moduledoc """
-  Documentation for `IsEven`.
+  Module for checking if a number is even.
   """
 
   @doc """
