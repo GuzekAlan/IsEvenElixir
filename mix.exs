@@ -9,8 +9,8 @@ defmodule IsEven.MixProject do
         licenses: ["Apache-2.0"],
         links: %{github: "https://github.com/GuzekAlan/IsEvenElixir"}
       ],
-      version: "0.1.4",
-      elixir: "~> 1.18",
+      version: "0.1.5",
+      elixir: "~> 1.16",
       start_permanent: Mix.env() == :prod,
       deps: deps()
     ]
